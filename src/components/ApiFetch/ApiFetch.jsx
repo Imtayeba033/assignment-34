@@ -1,21 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
-// const ApiFetch = () => {
-//     useEffect(()=>{
-//         fetch("https://randomuser.me/api/?results=50")
-//         .then(res=>res.json())
-//         .then(data=>console.log(data.results))
-//     },{})
-//     const [value,setValue]=useState()
-//     console.log(value);
-    
-//     return (
-//         <div>
-//             {
-//                 value.map(val=>setValue(val))
-//             }
-//         </div>
-//     );
-// };
+const ApiFetch = () => {
+    useEffect(()=>{
+        
+    },{})
+    return (
+        <div>
+            
+        </div>
+    );
+};
 
-// export default ApiFetch;
+export default ApiFetch;
